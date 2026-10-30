@@ -1,0 +1,27 @@
+{
+  "name": "college-website",
+  "version": "1.0.0",
+  "description": "College website with public portal, admissions, auth, and admin dashboard",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "keywords": [
+    "college",
+    "education",
+    "express",
+    "sqlite"
+  ],
+  "author": "Copilot",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "multer": "^2.0.2",
+    "sqlite3": "^5.1.7"
+  }
+}
